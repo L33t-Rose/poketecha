@@ -1,0 +1,53 @@
+body{
+    text-align: center;
+}
+h1{
+    margin-top: 10px;
+}
+#poke{
+	width:300px;
+}
+.row{
+	margin-bottom: 10px;
+}
+#sprite{
+	width:200px;
+}
+#lol img{
+	width:30px;
+	margin-top: 20px;
+}
+.speech-bubble {
+	position: relative;
+	background: #7ed1fe;
+	border-radius: .4em;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-left-color: #7ed1fe;
+	border-right: 0;
+	margin-top: -20px;
+	margin-right: -20px;
+}
+.highlight{
+	border:2px solid black;
+}
+
+footer{
+	left:0;
+	bottom:0;
+	width:100%;
+	
+	color:white;
+}
+
+footer .row{
+	height:30px;
+}
