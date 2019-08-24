@@ -103,20 +103,3 @@ function search() {
     };
     request.send();
 }
-// function getSpriteURL(spriteUrl) {
-//     let spriteRequest = new XMLHttpRequest();
-//     spriteRequest.open("GET", sURL);
-//     spriteRequest.send();
-//     spriteRequest.onload = function() {
-//         console.log("running");
-//         let spriteData = JSON.parse(this.response);
-//         console.log(spriteData);
-//         console.log(spriteData["sprites"].front_default);
-//         return spriteData["sprites"].front_default;
-//     }
-
-    
-// }
-
-
-
