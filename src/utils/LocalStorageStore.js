@@ -2,6 +2,11 @@ import { writable } from 'svelte/store';
 
 const alt = {identifier:'',ifNull:{}}
 
+/**
+ * 
+ * @param {{identifier:String,ifNull:Object}} init 
+ * 
+ */
 export default function localStorageStore(init=alt) {
     if (typeof init !== "object") {
         throw 'Object not provided'
